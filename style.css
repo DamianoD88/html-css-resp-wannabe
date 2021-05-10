@@ -132,3 +132,54 @@ img {
   background-color: #f2f2cd;
 }
 
+@media screen and (max-width:768px) {
+
+
+  .container {
+    
+    background-color: #f2f2cd;
+  }
+  .row {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: 100%;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  }
+
+  /* BLOCCO STEPS */
+
+  #steps {
+    background-color: white;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+ 
+  }
+
+  #steps {
+    text-align: center;
+  }
+
+  .left, .central, .right {
+    margin-bottom: 10px;
+ 
+  }
+
+}
